@@ -1,0 +1,7 @@
+**/target/
+.cache/
+*.nro
+*.exe
+**/__pycache__/
+02_build/latest/
+02_build/history/

@@ -1,0 +1,23 @@
+MHGU 逐次磨刀与翻滚取消 v0.1.1（PC）
+
+MHGU 逐次磨刀与翻滚取消 v0.1.1（PC 移植版）
+
+作用：每磨一下立即恢复一部分斩味，磨完总量与原版相同；磨刀全程可按回避键取消，保留已恢复量。快磨、慢磨按实际次数分摊。
+
+安装：关闭游戏，在 mhgurecomp.exe 旁的 mods 内新建 MHGU_PROGRESSIVE_SHARPEN 文件夹，将本包的 romfs 文件夹放进去。最终路径为 mods/MHGU_PROGRESSIVE_SHARPEN/romfs/nativeNX/plugins/progressive_sharpen.nro。PC 自带 Forge，无需额外前置。仅装一份同名 NRO。
+
+道具：第一下恢复时按原版规则消耗一次；此前取消不扣，之后不退。刚刃及特殊道具的完成效果仍需磨刀完成。无摇杆时向面朝方向回避，推摇杆时按方向回避；体力不足不能强行回避。
+
+调数值：本版无配置项。普通四次恢复 37/38/37/38，快磨一次恢复 150，慢磨五次各 30；特殊道具按原版 100 点分摊。
+
+已验证：Windows MHGURecomp 0.16.0、GU 1.4.0、太刀；完整与分段恢复、快磨/慢磨、起手/中途/收尾取消、扣道具、满斩上限、四方向和体力检查。与本机现有血条、伤害显示、World 太刀、盾斧变4G及快速采集组合做过回归。
+
+已知限制：尚未逐一实测所有武器与六风格组合，安卓、Eden、Switch 和联机未验证。遇到其他插件修改相同函数时可能停用，本插件日志前缀为 [psharp]。
+
+v0.1.1 修复：补满后不再重复调用恢复函数，满值通知只在实际补满时触发一次。
+
+与 World Sharpness Gauge r65 共存：在 mods/load_order.txt 或游戏 MOD 菜单中，让 world-sharpness-gauge 排在 MHGU_PROGRESSIVE_SHARPEN 前面加载。本机已设置；反序会导致斩味条因原版函数校验不符而停用。
+
+卸载：关闭游戏，删除 MHGU_PROGRESSIVE_SHARPEN 文件夹即可。
+
+安装包 SHA-256: 19486a4bb011db869cd9224a6915b4316aff0eed4106e5e8429e5d24b4b38456
