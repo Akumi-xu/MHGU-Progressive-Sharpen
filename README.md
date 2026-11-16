@@ -2,7 +2,7 @@
 
 v0.1.1 · MHGU 1.4.0 · PC MHGURecomp / Forge 插件
 
-[下载安装包](02_build/%E6%88%90%E5%93%81MOD/%E9%80%90%E6%AC%A1%E7%A3%A8%E5%88%80%E4%B8%8E%E7%BF%BB%E6%BB%9A%E5%8F%96%E6%B6%88/%E9%80%90%E6%AC%A1%E7%A3%A8%E5%88%80%E4%B8%8E%E7%BF%BB%E6%BB%9A%E5%8F%96%E6%B6%88_PC.zip) · [Release v0.1.1](https://github.com/Akumi-xu/MHGU-Progressive-Sharpen/releases/tag/v0.1.1)
+[下载安装包](https://github.com/Akumi-xu/MHGU-Progressive-Sharpen/releases/download/v0.1.1/MHGU-Progressive-Sharpen-PC-v0.1.1.zip) · [Release v0.1.1](https://github.com/Akumi-xu/MHGU-Progressive-Sharpen/releases/tag/v0.1.1)
 
 ## 功能
 
@@ -52,3 +52,5 @@ rustc --test ./01_plugins/progressive_sharpen/src/session.rs -o ./session_tests.
 依赖：[Forge](https://github.com/Fexty12573/forge) / `mhgu-forge`。开发使用 ChatGPT Codex 辅助。
 
 安装包 SHA-256：`19486a4bb011db869cd9224a6915b4316aff0eed4106e5e8429e5d24b4b38456`
+
+仓库保存展开的源码与构建材料；安装包统一从 Release 下载。历史版本及标签保持原样。
