@@ -1,8 +1,8 @@
 # MHGU 逐次磨刀与翻滚取消
 
-v0.1.1 · MHGU 1.4.0 · PC MHGURecomp / Forge 插件
+v0.1.1 · MHGU 1.4.0 · Recomp / Forge 插件
 
-[下载安装包](https://github.com/Akumi-xu/MHGU-Progressive-Sharpen/releases/download/v0.1.1/MHGU-Progressive-Sharpen-PC-v0.1.1.zip) · [Release v0.1.1](https://github.com/Akumi-xu/MHGU-Progressive-Sharpen/releases/tag/v0.1.1)
+[下载安装包](https://github.com/Akumi-xu/MHGU-Progressive-Sharpen/releases/download/v0.1.1/MHGU-Progressive-Sharpen-v0.1.1-Recomp.zip) · [Release v0.1.1](https://github.com/Akumi-xu/MHGU-Progressive-Sharpen/releases/tag/v0.1.1)
 
 ## 功能
 
@@ -23,7 +23,7 @@ v0.1.1 · MHGU 1.4.0 · PC MHGURecomp / Forge 插件
 mods/MHGU_PROGRESSIVE_SHARPEN/romfs/nativeNX/plugins/progressive_sharpen.nro
 ```
 
-PC 移植版自带 Forge，不需要额外 Switch 加载器。同名 NRO 只装一份。卸载时关闭游戏，删除本 MOD 文件夹即可。本版无 ini 或调参菜单。
+Recomp 自带 Forge，不需要额外 Switch 加载器。同名 NRO 只装一份。卸载时关闭游戏，删除本 MOD 文件夹即可。本版无 ini 或调参菜单。
 
 ### 与 World Sharpness Gauge r65 共存
 
